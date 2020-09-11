@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1084440897448-qmgdljf7n9eo9dbo65gnraccducpqqjh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1084440897448-qmgdljf7n9eo9dbo65gnraccducpqqjh</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1084440897448-j2t5mcmv7mdmld97p867k3efq3q6qmec.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAZ3iK4VP8cfkdr-zyc3Mnk3Ds8IRWuYis</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1084440897448</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>wisdom.peridot.NBTAmongUs</string>
+	<key>PROJECT_ID</key>
+	<string>icebreak-fdd7b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>icebreak-fdd7b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1084440897448:ios:5ae9e8e479b443feec5f9d</string>
+	<key>DATABASE_URL</key>
+	<string>https://icebreak-fdd7b.firebaseio.com</string>
+</dict>
+</plist>

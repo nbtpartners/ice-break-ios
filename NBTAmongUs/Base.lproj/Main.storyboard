@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NBTAmongUs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <skView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OqR-QS-GQP">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                            </skView>
+                            <skView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Fk-BZ-rpW">
+                                <rect key="frame" x="264" y="712" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="85q-IU-fjR"/>
+                                    <constraint firstAttribute="height" constant="150" id="eGe-25-31f"/>
+                                </constraints>
+                            </skView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1Fk-BZ-rpW" secondAttribute="bottom" id="F95-5K-Zdl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1Fk-BZ-rpW" secondAttribute="trailing" id="OWu-3n-P0R"/>
+                            <constraint firstItem="OqR-QS-GQP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UV8-d1-8kT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OqR-QS-GQP" secondAttribute="trailing" id="alA-ta-XPO"/>
+                            <constraint firstAttribute="bottom" secondItem="OqR-QS-GQP" secondAttribute="bottom" id="en8-Y9-ahE"/>
+                            <constraint firstItem="OqR-QS-GQP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="vN9-VT-sJh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="joystickView" destination="1Fk-BZ-rpW" id="vPy-RJ-puS"/>
+                        <outlet property="playgroundView" destination="OqR-QS-GQP" id="mAv-FV-k4z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="98"/>
+        </scene>
+    </scenes>
+</document>

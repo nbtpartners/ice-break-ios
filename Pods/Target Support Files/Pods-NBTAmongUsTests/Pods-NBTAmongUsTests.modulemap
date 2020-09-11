@@ -1,0 +1,6 @@
+framework module Pods_NBTAmongUsTests {
+  umbrella header "Pods-NBTAmongUsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
